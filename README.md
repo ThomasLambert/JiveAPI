@@ -11,7 +11,7 @@ Is this repository you will find :
 
 Basic Auth : all performed actions will be performed by authenticated user
 You will have to fill in your password into wrapper.gs.
-I've divided functions into places and users actions and you'll find them respectively into place.gs and users.gs as the names of the files suggest.
+I've divided functions into places and persons actions and you'll find them respectively into place.gs and persons.gs as the names of the files suggest.
 
 https://developers.jivesoftware.com/api/v3/cloud/rest/index.html
 
