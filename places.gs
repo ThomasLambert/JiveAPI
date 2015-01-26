@@ -1,3 +1,11 @@
+//#####################################
+// Title: Places API (standard Jive REST API v3)
+// Description : All API functions around the places
+// Author: Thomas Lambert
+// Date : 01/26/2015
+// Version : 1.0
+//#####################################
+
 
 function getPlaces(){
   // Get places : this function is useful to get the ID of a PLACE
