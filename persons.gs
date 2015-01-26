@@ -1,4 +1,11 @@
-// All functions around the persons
+//#####################################
+// Title: Persons API (standard Jive REST API v3)
+// Description : All API functions around the persons
+// Author: Thomas Lambert
+// Date : 01/26/2015
+// Version : 1.0
+//#####################################
+
 
 function getMultiplePeopleById( userIdList , numberOfResults , logJson ){
   var idsStr = "";
