@@ -1,7 +1,16 @@
+//#####################################
+// Title: Wrapper for API (standard Jive REST API v3)
+// Description : Thie file contains all functions for fetch and building options
+// Thanks to these, calling an API is really simple (see places.gs and persons.gs)
+// Author: Thomas Lambert
+// Date : 01/26/2015
+// Version : 1.0
+// REST API Examples : https://community.jivesoftware.com/docs/DOC-71539
+//#####################################
+
 var BASEURL='https://yourcommunity.jiveon.com/api/core/v3'
 var PWD = "yourpassword";
 
-// REST API Examples : https://community.jivesoftware.com/docs/DOC-71539
 
 function options( method , data){
   // construct the HTTP options
