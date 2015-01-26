@@ -1,18 +1,28 @@
-// Jive Data Export Service scripts
-// API and access Documentation : https://community.jivesoftware.com/docs/DOC-99916#jive_content_id_Show_Me_an_Example
 
+
+//#####################################
+// Title: Jive Data Export Service scripts
+// Description : Using the Analytics (Jive Data Export Service) API from Google Apps Script
+// Author: Thomas Lambert
+// Date : 01/26/2015
+// Version : 1.0
+//#####################################
+// API and access Documentation : https://community.jivesoftware.com/docs/DOC-99916#jive_content_id_Show_Me_an_Example
 // Be careful, you have to change 2 parameters in order to switch to production or test environnement 
 // - The BASEURL constant
 // - The clientId and clientSecret variables in the getAuthKey script
 // Then you will be able to launch the getAuthKey script. Copy and paste the authKey from the log to the AUTHKEY variable
-
+// Please use this script inside a spreadsheet as the results will be inserted into a spreadsheet
+//#####################################
 
 // Test
 //var BASEURL = "https://api-eu.jivesoftware.com/analytics";
 
 // Production
 var BASEURL = "https://api.jivesoftware.com/analytics";
-var COUNT = 200;
+
+
+var COUNT = 200; // number of results 
 
 
 function getActivityForUser() {
