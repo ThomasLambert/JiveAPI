@@ -1,5 +1,11 @@
-
+//#####################################
+// Title: Bunchball API
+// Description : Bunchball is the gamification motor in Jive
+// Author: Thomas Lambert
+// Date : 01/26/2015
+// Version : 1.0
 // In order to use this script you have to fill in the API key and the userId in BunchballLogin() function.
+//#####################################
 
 function getGroup( groupName ){
   var method =   'group.getUsers&returnCount=100&groupName=' + groupName;
